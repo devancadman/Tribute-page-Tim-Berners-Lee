@@ -18,6 +18,17 @@ header {
   font-size: 15px;
 }
 
+.title {
+    color: white;
+    font-weight: bold;
+	  letter-spacing: 0.3em;
+}
+
+.title:hover,
+.title:focus {
+    color: #F50057;
+}
+
 footer {
   background-color: #607D8B;
   color: white;
@@ -46,6 +57,10 @@ $pink: #F50057;
     width: 2%;
     background: #37474F;
   }
+  #Links {
+    color: #100fab;
+    font-size: 25px;
+  }
   h2 {
     background: $pink;
     max-width: 20%;
@@ -55,6 +70,10 @@ $pink: #F50057;
     position: relative;
     clear: both;
     text-color: white;
+  }
+  
+  h3, p{
+    font-weight: bold;
   }
   p {
     font-style: italic;
@@ -153,12 +172,13 @@ hr {
     border-width: 2px;
 }
 
-.responsive-object iframe {
+.responsive-object iframe { 
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
+    float: middle;
 }
 
 .responsive-object {
